@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" zoomAndPan="magnify" viewBox="0 0 224.87999 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0">
+  <defs>
+    <g/>
+    <clipPath id="8898958d55">
+      <path d="M 3.570312 2.21875 L 19 2.21875 L 19 19 L 3.570312 19 Z M 3.570312 2.21875 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="b50f9a677a">
+      <path d="M 9 15 L 19 15 L 19 26.082031 L 9 26.082031 Z M 9 15 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="c7456758d5">
+      <path d="M 22 9 L 36.976562 9 L 36.976562 26.082031 L 22 26.082031 Z M 22 9 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="8c81c4c99f">
+      <path d="M 22 2.21875 L 32 2.21875 L 32 13 L 22 13 Z M 22 2.21875 " clip-rule="nonzero"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#8898958d55)">
+    <path fill="#ff0000" d="M 3.570312 14.164062 L 18.191406 2.21875 L 18.191406 10.238281 L 12.144531 15.175781 L 10.152344 16.800781 C 9.613281 17.242188 9.300781 17.898438 9.300781 18.597656 C 9.300781 18.683594 9.308594 18.769531 9.316406 18.855469 Z M 3.570312 14.164062 " fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  <g clip-path="url(#b50f9a677a)">
+    <path fill="#db0000" d="M 10.574219 19.882812 C 10.183594 19.566406 9.964844 19.097656 9.964844 18.597656 C 9.964844 18.097656 10.183594 17.628906 10.574219 17.3125 L 12.355469 15.855469 L 18.191406 20.625 L 18.191406 26.105469 Z M 10.574219 19.882812 " fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  <g clip-path="url(#c7456758d5)">
+    <path fill="#009bff" d="M 22.800781 18.089844 L 28.847656 13.148438 L 30.839844 11.523438 C 31.378906 11.082031 31.691406 10.425781 31.691406 9.726562 C 31.691406 9.640625 31.6875 9.554688 31.675781 9.46875 L 37.421875 14.164062 L 22.800781 26.105469 Z M 22.800781 18.089844 " fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  <g clip-path="url(#8c81c4c99f)">
+    <path fill="#3a51d6" d="M 22.800781 7.699219 L 22.800781 2.21875 L 30.421875 8.441406 C 30.808594 8.757812 31.03125 9.226562 31.03125 9.726562 C 31.03125 10.226562 30.808594 10.695312 30.421875 11.011719 L 28.636719 12.46875 Z M 22.800781 7.699219 " fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  <g fill="#030720" fill-opacity="1">
+    <!-- Text paths for "Fullstack Central" -->
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-color: #4353ff;
+    --secondary-color: #2f3a4f;
+    --accent-color: #7b60ff;
+    --text-color: #2f3a4f;
+    --text-light: #6b7280;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-3 rounded-md font-medium transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-text hover:bg-gray-300;
+  }
+
+  .container {
+    @apply max-w-container mx-auto px-8;
+  }
+}
+
+// Your custom SCSS can go here

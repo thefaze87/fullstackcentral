@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+  <!-- FSC Logo Mark -->
+  <rect width="40" height="40" rx="8" fill="url(#gradient)" />
+  
+  <!-- FSC Letters -->
+  <path d="M10 14H30M10 20H25M10 26H20" 
+    stroke="white" 
+    stroke-width="3" 
+    stroke-linecap="round"
+  />
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4353FF" />
+      <stop offset="100%" stop-color="#7B60FF" />
+    </linearGradient>
+  </defs>
+</svg>

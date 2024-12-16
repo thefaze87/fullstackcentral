@@ -1,0 +1,54 @@
+<div class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+  <div class="relative aspect-[16/9] overflow-hidden">
+    <img [src]="course.image" [alt]="course.title" 
+      class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+    <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white">
+      <span [class]="course.isPremium ? 
+        'px-3 py-1 rounded-full text-xs font-medium bg-amber-400/90 text-amber-900' : 
+        'px-3 py-1 rounded-full text-xs font-medium bg-emerald-400/90 text-emerald-900'">
+        {{course.isPremium ? 'Premium' : 'Free'}}
+      </span>
+      <span class="px-3 py-1 rounded-full text-xs font-medium bg-white/90 text-gray-900">
+        {{course.level}}
+      </span>
+    </div>
+  </div>
+  
+  <div class="p-6">
+    <h3 class="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors">
+      {{course.title}}
+    </h3>
+    <p class="mt-2 text-gray-600">{{course.description}}</p>
+    
+    <div class="mt-6 pt-6 border-t border-gray-100">
+      <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+        <span class="flex items-center gap-1.5">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"/>
+          </svg>
+          {{course.duration}}
+        </span>
+        <span class="flex items-center gap-1.5">
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/>
+          </svg>
+          {{course.lessonCount}} lessons
+        </span>
+      </div>
+      
+      <div class="flex items-center justify-between">
+        <div class="text-primary font-bold">
+          {{course.price | currency}}
+        </div>
+        <a [routerLink]="['/courses', course.id]" 
+          class="inline-flex items-center gap-1 text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+          Learn More
+          <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+// Only keeping styles that can't be easily done with Tailwind
+.course-meta {
+  span {
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-size: contain;
+      opacity: 0.7;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<div class="course-card">
+    <div class="course-image">
+        <img src="${courseImage}" alt="${courseTitle}">
+    </div>
+    <div class="course-content">
+        <span class="course-type">${isPremium ? 'Premium' : 'Free'}</span>
+        <h3>${courseTitle}</h3>
+        <p>${courseDescription}</p>
+        <div class="course-meta">
+            <span>${lessonCount} lessons</span>
+            <span>${duration}</span>
+        </div>
+        <a href="${courseUrl}" class="btn btn-primary">Learn More</a>
+    </div>
+</div> 
