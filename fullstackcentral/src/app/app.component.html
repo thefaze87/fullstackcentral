@@ -9,11 +9,14 @@
       <div class="hidden md:flex items-center gap-4">
         <div class="flex items-center gap-2 text-sm">
           <span>Ends in:</span>
-          <div class="bg-white/10 px-2 py-1 rounded">00d</div>
-          <div class="bg-white/10 px-2 py-1 rounded">12h</div>
-          <div class="bg-white/10 px-2 py-1 rounded">45m</div>
+          <div class="bg-white/10 px-2 py-1 rounded countdown-digit">{{timeLeft.days}}d</div>
+          <div class="bg-white/10 px-2 py-1 rounded countdown-digit">{{timeLeft.hours}}h</div>
+          <div class="bg-white/10 px-2 py-1 rounded countdown-digit">{{timeLeft.minutes}}m</div>
+          <div class="bg-white/10 px-2 py-1 rounded countdown-digit">{{timeLeft.seconds}}s</div>
         </div>
-        <a href="#" class="text-sm font-medium hover:text-white/90">Claim Now →</a>
+        <a href="#" class="text-sm font-medium hover:text-white/90 transition-colors">
+          Claim Now →
+        </a>
       </div>
     </div>
   </div>
