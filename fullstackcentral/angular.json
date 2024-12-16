@@ -22,7 +22,12 @@
               {
                 "glob": "**/*",
                 "input": "src/assets",
-                "output": "assets"
+                "output": "/assets"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": ["src/styles.scss"],
@@ -78,7 +83,6 @@
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
               {
                 "glob": "**/*",
                 "input": "src/assets",
